@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": "./",
+        "paths": {
+            "assets/*": ["src/shared/assets/*"],
+            "shared/*": ["src/shared/*"],
+            "reactor/*": ["src/reactor/*"],
+            "modules/*": ["src/modules/*"],
+            "user": ["src/reactor/user.js"],
+            "layout": ["src/shared/components/layout/layout.js"]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,6 @@
+.filterForm {
+    padding: 24px;
+    .MuiInputLabel-outlined:not(.MuiInputLabel-shrink) {
+        transform: translate(-14px, 14px) scale(1);
+    }
+}
