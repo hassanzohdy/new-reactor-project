@@ -75,7 +75,6 @@ const permissionsList = [
     crud('users', 'user'),
     crud('usersGroups', 'usersGroup'),
     settings,
-    crud('sideDishes', 'sideDish'),
     orders,
     crud('categories', 'category'),
     customers,

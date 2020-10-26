@@ -6,6 +6,11 @@ import './helpers/sidebar-items-list';
 import { navigateTo } from 'reactor/router';
 import endpointEvents from 'reactor/http/events';
 
+import permissionsObserver from 'reactor/layout/utils/admin/permissionsObserver';
+
+// should be removed when permissions is set
+permissionsObserver.deactivate();
+
 endpointEvents.onSuccess(response => {
     if (response.data.data) {
         response.data = response.data.data;

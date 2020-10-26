@@ -14,16 +14,8 @@ setModules([
         module: 'categories',
       },
       {
-        entry: ['/meals'],
-        module: 'meals',
-      },
-      {
         entry: ['/customers'],
         module: 'customers',
-      },
-      {
-        entry: ['/deliveryMen'],
-        module: 'deliveryMen',
       },
       {
         entry: ['/districts'],
@@ -34,16 +26,8 @@ setModules([
         module: 'coupons',
       },
       {
-        entry: ['/orders'],
-        module: 'orders',
-      },
-      {
         entry: ['/reports'],
         module: 'reports',
-      },
-      {
-        entry: ['/sizes'],
-        module: 'sizes',
       },
       {
         entry: ['/campaigns'],
@@ -66,10 +50,6 @@ setModules([
         module: 'newsletter',
       },
       {
-        entry: ['/side-dishes'],
-        module: 'sideDishes',
-      },
-      {
         entry: ['/', '/access-denied'],
         module: 'home',
       },
@@ -79,10 +59,6 @@ setModules([
     path: '/',
     name: 'front-office',
     modules: [
-      {
-        entry: ['/menu'],
-        module: 'menu',
-      },
       {
         entry: [
           "/login",
@@ -97,12 +73,8 @@ setModules([
         module: "customers",
       },
       {
-        entry: ["/", "/about-us", "/contact-us", "/test", "/offers"],
+        entry: ["/", "/about-us", "/contact-us"],
         module: "home",
-      },
-      {
-        entry: ["/meals"],
-        module: "meal",
       },
     ]
   }
